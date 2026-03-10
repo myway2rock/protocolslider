@@ -1,53 +1,114 @@
 [
   {
-    "id": "meeting-prep",
-    "title": "Meeting Preparation",
+    "id": "meeting",
+    "title": "Meeting Protocol",
     "icon": "📋",
     "cards": [
-      { "title": "Define the goal", "body": "What is the single most important outcome of this meeting? Write it down before you join." },
-      { "title": "Prepare your agenda", "body": "List the 3 most important topics. Share the agenda with participants at least 30 minutes in advance." },
-      { "title": "Review background material", "body": "Read any relevant documents, previous meeting notes, or data you will need to reference." },
-      { "title": "Prepare your questions", "body": "Write down the key questions you want answered or decisions you need to drive." },
-      { "title": "Set up your space", "body": "Ensure a quiet environment, good lighting, charged device, and a stable connection. Have water nearby." }
+      { "title": "1. Define meeting goal & outcome", "body": "What is the single most important outcome of this meeting? Write it down before you start." },
+      { "title": "2. Choose meeting strategy", "body": "What format fits best — decision, alignment, brainstorm, or update? Choose the right structure." },
+      { "title": "3. Identify required participants", "body": "Who must be in the room? Remove anyone who is not essential to the outcome." },
+      { "title": "4. Gather required information", "body": "What data, documents, or context do participants need? Distribute in advance." },
+      { "title": "5. Prepare agenda & structure", "body": "List the key topics with time allocations. Share the agenda before the meeting." },
+      { "title": "6. Run discussion & decide", "body": "Facilitate focused discussion. Drive toward a clear decision or outcome before closing." },
+      { "title": "7. Capture decisions, actions & minutes", "body": "Document what was decided, who owns each action, and by when. Send to all participants." }
+    ]
+  },
+  {
+    "id": "task-briefing",
+    "title": "Task Briefing Protocol",
+    "icon": "📝",
+    "cards": [
+      { "title": "1. Define objective", "body": "What exactly needs to be accomplished? State it in one clear sentence." },
+      { "title": "2. Define expected output", "body": "What does the finished result look like? Be specific about format, content, and quality." },
+      { "title": "3. Define success criteria", "body": "How will you know the task is done well? List measurable criteria." },
+      { "title": "4. Provide context & inputs", "body": "What background information, data, or resources does the person need to execute?" },
+      { "title": "5. Clarify scope & assumptions", "body": "What is in scope and what is not? State any assumptions explicitly." },
+      { "title": "6. Define timeline & checkpoints", "body": "When is the deadline? Are there intermediate checkpoints or reviews?" },
+      { "title": "7. Confirm understanding → capture task", "body": "Have the person restate the task in their own words. Capture it in your task system." }
     ]
   },
   {
     "id": "weekly-review",
-    "title": "Weekly Review",
+    "title": "Weekly Review Protocol",
     "icon": "🔁",
     "cards": [
-      { "title": "Clear your inboxes", "body": "Process email, messages, and notes to zero. Capture any open tasks or commitments." },
-      { "title": "Review last week", "body": "What did you complete? What did you not finish? What surprised you?" },
-      { "title": "Review your projects", "body": "Go through each active project. Is there a clear next action for each one?" },
-      { "title": "Review your goals", "body": "Are you on track for your monthly and quarterly goals? Do any priorities need to shift?" },
-      { "title": "Plan next week", "body": "Identify your top 3 priorities for the coming week. Block time for deep work." },
-      { "title": "Celebrate a win", "body": "Name one thing that went well this week. Acknowledge your progress before moving on." }
+      { "title": "1. Revisit goals & priorities", "body": "Review your current goals and top priorities. Are they still the right ones?" },
+      { "title": "2. Review objective results", "body": "What did you actually complete this week? Measure against your planned outcomes." },
+      { "title": "3. Identify wins & leverage", "body": "What went well? What created the most value? How can you do more of it?" },
+      { "title": "4. Identify friction & mistakes", "body": "What slowed you down or went wrong? What would you do differently?" },
+      { "title": "5. Improve systems & habits", "body": "What process, habit, or tool can you improve to perform better next week?" },
+      { "title": "6. Check strategic alignment", "body": "Is your weekly work aligned with your long-term goals? Adjust if needed." },
+      { "title": "7. Define next week priorities & capture tasks", "body": "Set your top 3 priorities for next week. Capture all open tasks and next actions." }
     ]
   },
   {
-    "id": "project-handover",
-    "title": "Project Handover",
-    "icon": "🤝",
+    "id": "decision",
+    "title": "Decision Protocol",
+    "icon": "⚖️",
     "cards": [
-      { "title": "Document the project status", "body": "Write a clear summary: what is done, what is in progress, and what is not started." },
-      { "title": "List all open tasks", "body": "Capture every open action item with owner, deadline, and context. Leave nothing implicit." },
-      { "title": "Share access and credentials", "body": "Ensure the new owner has access to all tools, repositories, accounts, and documents." },
-      { "title": "Explain key decisions", "body": "Document the most important decisions made and the reasoning behind them." },
-      { "title": "Introduce stakeholders", "body": "Connect the new owner with key contacts. Provide names, roles, and communication preferences." },
-      { "title": "Schedule a handover call", "body": "Walk through the project together. Allow time for questions. Confirm the new owner feels confident." }
+      { "title": "1. Define the decision question", "body": "State the decision as a clear, specific question. Ambiguity leads to poor decisions." },
+      { "title": "2. Define success criteria", "body": "What does a good outcome look like? Define criteria before evaluating options." },
+      { "title": "3. Identify decision owner", "body": "Who has final authority? Clarify accountability before the discussion begins." },
+      { "title": "4. List options", "body": "Generate at least 3 realistic options. Include the option of doing nothing." },
+      { "title": "5. Evaluate risks & upside", "body": "For each option, assess the potential upside and the key risks or downsides." },
+      { "title": "6. Decide", "body": "Choose the best option based on your criteria. Avoid over-analysis — decide and move." },
+      { "title": "7. Capture decision & next actions", "body": "Document the decision, the reasoning, and the immediate next actions with owners." }
     ]
   },
   {
-    "id": "travel-prep",
-    "title": "Travel Preparation",
-    "icon": "✈️",
+    "id": "daily-focus",
+    "title": "Daily Strategic Focus Protocol",
+    "icon": "🎯",
     "cards": [
-      { "title": "Check travel documents", "body": "Verify passport validity, visa requirements, and any entry conditions for your destination." },
-      { "title": "Book essentials", "body": "Confirm flights, accommodation, and any required transfers or car rentals are booked and saved offline." },
-      { "title": "Pack smart", "body": "Use a packing list. Lay out everything before packing. Check the weather forecast for your destination." },
-      { "title": "Prepare your devices", "body": "Charge all devices. Download offline maps, tickets, and entertainment. Enable roaming or get a local SIM." },
-      { "title": "Secure your home", "body": "Lock windows and doors. Set timers for lights. Arrange for mail, plants, or pets if needed." },
-      { "title": "Share your itinerary", "body": "Send your travel plan to a trusted contact. Include hotel address, flight numbers, and emergency contacts." }
+      { "title": "1. Revisit long-term goal", "body": "What is the most important goal you are working toward? Keep it front of mind." },
+      { "title": "2. Identify today's leverage point", "body": "What single action today would create the most progress toward your goal?" },
+      { "title": "3. Define the single most important outcome", "body": "What is the one result that would make today a success? Write it down." },
+      { "title": "4. Remove blockers & distractions", "body": "What could prevent you from executing? Eliminate or defer it before you start." },
+      { "title": "5. Execute the high-leverage task", "body": "Do the most important task first, with full focus. Protect this time." },
+      { "title": "6. Capture insights or improvements", "body": "What did you learn today? What would you do differently? Note it immediately." },
+      { "title": "7. Prepare tomorrow's focus", "body": "Define tomorrow's single most important outcome before you close today." }
+    ]
+  },
+  {
+    "id": "problem-solving",
+    "title": "Problem Solving Protocol",
+    "icon": "🔍",
+    "cards": [
+      { "title": "1. Define the real problem", "body": "What is actually wrong? Separate symptoms from root causes. State the problem precisely." },
+      { "title": "2. Form initial hypothesis", "body": "What do you believe is causing the problem? State your best guess as a testable hypothesis." },
+      { "title": "3. Break problem into components", "body": "Decompose the problem into its key parts. Which component is most critical to solve?" },
+      { "title": "4. Gather critical evidence", "body": "What data or information do you need to validate or disprove your hypothesis?" },
+      { "title": "5. Test the hypothesis", "body": "Evaluate the evidence against your hypothesis. Does it hold up?" },
+      { "title": "6. Refine or pivot", "body": "If the hypothesis is wrong, update it and re-test. Iterate until you reach the root cause." },
+      { "title": "7. Decide next action & capture", "body": "Define the solution or next step. Capture it with a clear owner and timeline." }
+    ]
+  },
+  {
+    "id": "opportunity-evaluation",
+    "title": "Opportunity Evaluation Protocol",
+    "icon": "💡",
+    "cards": [
+      { "title": "1. Define the opportunity", "body": "What exactly is the opportunity? Describe it clearly and concisely." },
+      { "title": "2. Define success criteria", "body": "What does a successful outcome look like? Set measurable criteria before evaluating." },
+      { "title": "3. Estimate upside potential", "body": "What is the realistic best-case outcome? Quantify value, impact, or return if possible." },
+      { "title": "4. Evaluate risks & costs", "body": "What could go wrong? What resources, time, or capital are required?" },
+      { "title": "5. Check strategic alignment", "body": "Does this opportunity align with your current goals and priorities? Or is it a distraction?" },
+      { "title": "6. Define go / no-go rule", "body": "What condition must be true for you to pursue this? State it explicitly." },
+      { "title": "7. Decide & commit", "body": "Make a clear decision: pursue, defer, or decline. Capture the decision and next action." }
+    ]
+  },
+  {
+    "id": "ooda",
+    "title": "OODA Protocol",
+    "icon": "🔄",
+    "cards": [
+      { "title": "1. Observe the situation", "body": "What is actually happening? Gather raw facts and data without interpretation." },
+      { "title": "2. Interpret what it means", "body": "What do the observations tell you? Identify patterns, signals, and implications." },
+      { "title": "3. Identify possible actions", "body": "What are your realistic options given the situation? List them without filtering." },
+      { "title": "4. Choose best option", "body": "Which action best fits the situation and your goals? Decide with the information you have." },
+      { "title": "5. Execute", "body": "Act decisively. Speed matters — a good decision executed now beats a perfect one too late." },
+      { "title": "6. Capture results", "body": "What happened as a result of your action? Record the outcome objectively." },
+      { "title": "7. Adjust next step", "body": "What does the result tell you? Update your understanding and begin the next OODA loop." }
     ]
   }
 ]
