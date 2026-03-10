@@ -220,11 +220,9 @@ header h1 {
   cursor: default;
 }
 
-/* Finish state */
+/* Finish state — display controlled by .screen/.screen.active */
 #finish-screen {
   flex: 1;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
