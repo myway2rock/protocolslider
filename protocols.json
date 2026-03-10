@@ -1,0 +1,53 @@
+[
+  {
+    "id": "meeting-prep",
+    "title": "Meeting Preparation",
+    "icon": "📋",
+    "cards": [
+      { "title": "Define the goal", "body": "What is the single most important outcome of this meeting? Write it down before you join." },
+      { "title": "Prepare your agenda", "body": "List the 3 most important topics. Share the agenda with participants at least 30 minutes in advance." },
+      { "title": "Review background material", "body": "Read any relevant documents, previous meeting notes, or data you will need to reference." },
+      { "title": "Prepare your questions", "body": "Write down the key questions you want answered or decisions you need to drive." },
+      { "title": "Set up your space", "body": "Ensure a quiet environment, good lighting, charged device, and a stable connection. Have water nearby." }
+    ]
+  },
+  {
+    "id": "weekly-review",
+    "title": "Weekly Review",
+    "icon": "🔁",
+    "cards": [
+      { "title": "Clear your inboxes", "body": "Process email, messages, and notes to zero. Capture any open tasks or commitments." },
+      { "title": "Review last week", "body": "What did you complete? What did you not finish? What surprised you?" },
+      { "title": "Review your projects", "body": "Go through each active project. Is there a clear next action for each one?" },
+      { "title": "Review your goals", "body": "Are you on track for your monthly and quarterly goals? Do any priorities need to shift?" },
+      { "title": "Plan next week", "body": "Identify your top 3 priorities for the coming week. Block time for deep work." },
+      { "title": "Celebrate a win", "body": "Name one thing that went well this week. Acknowledge your progress before moving on." }
+    ]
+  },
+  {
+    "id": "project-handover",
+    "title": "Project Handover",
+    "icon": "🤝",
+    "cards": [
+      { "title": "Document the project status", "body": "Write a clear summary: what is done, what is in progress, and what is not started." },
+      { "title": "List all open tasks", "body": "Capture every open action item with owner, deadline, and context. Leave nothing implicit." },
+      { "title": "Share access and credentials", "body": "Ensure the new owner has access to all tools, repositories, accounts, and documents." },
+      { "title": "Explain key decisions", "body": "Document the most important decisions made and the reasoning behind them." },
+      { "title": "Introduce stakeholders", "body": "Connect the new owner with key contacts. Provide names, roles, and communication preferences." },
+      { "title": "Schedule a handover call", "body": "Walk through the project together. Allow time for questions. Confirm the new owner feels confident." }
+    ]
+  },
+  {
+    "id": "travel-prep",
+    "title": "Travel Preparation",
+    "icon": "✈️",
+    "cards": [
+      { "title": "Check travel documents", "body": "Verify passport validity, visa requirements, and any entry conditions for your destination." },
+      { "title": "Book essentials", "body": "Confirm flights, accommodation, and any required transfers or car rentals are booked and saved offline." },
+      { "title": "Pack smart", "body": "Use a packing list. Lay out everything before packing. Check the weather forecast for your destination." },
+      { "title": "Prepare your devices", "body": "Charge all devices. Download offline maps, tickets, and entertainment. Enable roaming or get a local SIM." },
+      { "title": "Secure your home", "body": "Lock windows and doors. Set timers for lights. Arrange for mail, plants, or pets if needed." },
+      { "title": "Share your itinerary", "body": "Send your travel plan to a trusted contact. Include hotel address, flight numbers, and emergency contacts." }
+    ]
+  }
+]

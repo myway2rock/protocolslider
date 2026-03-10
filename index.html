@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#1a1a2e" />
+  <meta name="description" content="Run repeatable protocols one card at a time." />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Protocols" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Protocol Player</title>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <button id="back-btn" aria-label="Back">‹</button>
+      <h1 id="header-title">Protocols</h1>
+    </header>
+
+    <!-- ── List Screen ─────────────────────────────────── -->
+    <div id="list-screen" class="screen active">
+      <div id="protocol-list"></div>
+    </div>
+
+    <!-- ── Player Screen ───────────────────────────────── -->
+    <div id="player-screen" class="screen">
+      <div id="progress-bar-wrap">
+        <div id="progress-bar"></div>
+      </div>
+      <div id="progress-label">Step 1 / 1</div>
+      <div id="card-container"></div>
+      <p class="swipe-hint">Swipe left / right or use the buttons</p>
+      <div id="nav-buttons">
+        <button id="prev-btn" class="nav-btn">← Back</button>
+        <button id="next-btn" class="nav-btn">Next →</button>
+      </div>
+    </div>
+
+    <!-- ── Finish Screen ───────────────────────────────── -->
+    <div id="finish-screen" class="screen">
+      <div class="finish-icon">✅</div>
+      <h2>Protocol complete!</h2>
+      <p id="finish-protocol-name"></p>
+      <button id="restart-btn">Run again</button>
+      <button id="home-btn">Back to list</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./service-worker.js');
+      });
+    }
+  </script>
+</body>
+</html>
